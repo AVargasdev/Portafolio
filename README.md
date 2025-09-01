@@ -31,14 +31,6 @@ Un portafolio web moderno y responsivo construido con **HTML, CSS y JavaScript v
 
 ---
 
-## 📁 Estructura del Proyecto
-portfolio/
-├── index.html # Archivo principal
-├── README.md # Documentación
-└── assets/ # Recursos y imágenes
-└── images/
----
-
 ## 🎨 Paleta de Colores y Diseño
 
 | Elemento              | Color                       |
