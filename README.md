@@ -31,17 +31,6 @@ Un portafolio web moderno y responsivo construido con **HTML, CSS y JavaScript v
 
 ---
 
-## 🎨 Paleta de Colores y Diseño
-
-| Elemento              | Color                       |
-|----------------------|-----------------------------|
-| Fondo Principal       | #0a0a0a                     |
-| Fondo Secundario      | #1a1a1a                     |
-| Texto Principal       | #ffffff                     |
-| Texto Secundario      | #a0a0a0                     |
-| Color Acento          | #3b82f6                     |
-| Gradiente             | linear-gradient(135deg, #667eea 0%, #764ba2 100%) |
-
 **Animaciones Implementadas:** Fade In Up, Parallax, Counter Animation, Shimmer Effect, Hover Transforms
 
 ---
