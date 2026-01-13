@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Desarrollador Full Stack</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portafolio Avargas.dev</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">👋 ¡Hola! Soy</div>
+                <h1 class="hero-name">Andres Vargas Rodriguez</h1>
+                <h2 class="hero-title">Desarrollador junior</h2>
+                <p class="hero-description">
+                    Estudiante de Sistemas | Apasionado por crear proyectos web funcionales e innovadores.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Contactar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <div class="profile-card">
+                        <img src="mi-foto.jpg" alt="Andres Vargas Rodriguez" class="profile-pic">
+                        <h4 style="color: var(--text-primary); margin-bottom: 1rem;">Desarrollador en Formación</h4>
+                        <p style="color: var(--text-secondary);">Siempre aprendiendo, siempre creciendo</p>
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h3>Construyendo el futuro, una línea de código a la vez</h3>
+                    <p>
+                        Soy un desarrollador apasionado por la programación. Me encanta crear aplicaciones web modernas, 
+                        responsivas y fáciles de usar que hagan la vida de los usuarios más sencilla.
+                    </p>
+                    <p>
+                        Tengo experiencia en tecnologías como HTML, JavaScript, React, Node.js, Java y Python. 
+                        Me esfuerzo por mantenerme actualizado con las últimas tendencias y mejores prácticas en desarrollo web.
+                    </p>
+                    <p>
+                        Mi enfoque se centra en escribir código limpio, mantenible y escalable. 
+                        Disfruto enfrentando desafíos complejos y encontrando soluciones creativas 
+                        que marquen la diferencia.
+                    </p>
+                    <p>
+                        Actualmente busco oportunidades para aplicar mis conocimientos en proyectos 
+                        reales y continuar mi crecimiento profesional en el mundo del desarrollo.
+                    </p>
+                </div>
+            </div>
+            <div class="about-stats animate-on-scroll">
+                <div class="stat">
+                    <span class="stat-number" data-count="1">0</span>
+                    <div class="stat-label">Proyectos Completados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-icon">📄</span>
+                            <div class="skill-name">HTML</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">⚡</span>
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">⚛️</span>
+                            <div class="skill-name">React</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-icon">🟢</span>
+                            <div class="skill-name">Node.js</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🐍</span>
+                            <div class="skill-name">Python</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🚀</span>
+                            <div class="skill-name">Express</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🐘</span>
+                            <div class="skill-name">MySQL</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🔗</span>
+                            <div class="skill-name">REST API</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-icon">📦</span>
+                            <div class="skill-name">Git</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">🐙</span>
+                            <div class="skill-name">GitHub</div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-icon">💻</span>
+                            <div class="skill-name">VS Code</div>
+                        </div>                 
+                        <div class="skill-item">
+                            <span class="skill-icon">⚡</span>
+                            <div class="skill-name">Vite</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        💬
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Chatbot Inteligente (Proceso)</h3>
+                        <p class="project-description">
+                            Plataforma de comercio electrónico completa con carrito de compras, 
+                            autenticación de usuarios, panel de administración y pasarela de pagos integrada.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>        
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        📱
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TaskWise Gestor de tareas</h3>
+                        <p class="project-description">
+                            Aplicación web completa con autenticación JWT, gestión de usuarios, dashboard analítico en tiempo real, 
+                            notificaciones push, y sistema de reportes automatizados. Incluye API REST documentada con Swagger.
+                        </p>
+                        <div class="project-tech">
+                            <div class="tech-section">
+                                <div class="tech-section-title">Frontend</div>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">TailwindCSS</span>
+                                <span class="tech-tag">React Query</span>
+                                <span class="tech-tag">Framer Motion</span>
+                                <span class="tech-tag">Recharts</span>
+                            </div>
+                            
+                            <div class="tech-section">
+                                <div class="tech-section-title">Backend</div>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express 5</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Sequelize</span>
+                                <span class="tech-tag">Socket.IO</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                            
+                            <div class="tech-section">
+                                <div class="tech-section-title">DevOps & Testing</div>
+                                <span class="tech-tag">Jest</span>
+                                <span class="tech-tag">Vitest</span>
+                                <span class="tech-tag">Swagger</span>
+
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">¡Trabajemos Juntos!</h2>
+            <div class="contact-content animate-on-scroll">
+                <p class="contact-text">
+                    Estoy siempre abierto a nuevas oportunidades, colaboraciones y proyectos interesantes. 
+                    Si tienes una idea genial o quieres que trabajemos juntos, ¡me encantaría escucharte!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:avargasg.dev.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/avargasdev/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/AVargasdev/" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                </div>
+                <div style="margin-top: 3rem;">
+                    <a href="avargasg.dev@gmail.com" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">
+                        <i class="fas fa-paper-plane"></i>
+                        Envíame un Mensaje
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Avargas.dev </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
