@@ -23,9 +23,9 @@ Un portafolio web moderno y responsivo construido con **HTML, CSS y JavaScript v
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-5294E2?style=for-the-badge&logo=font-awesome&logoColor=white)
 ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-0F9D58?style=for-the-badge&logo=google&logoColor=white)
 
-- **HTML5:** Estructura semántica  
-- **CSS3:** Flexbox, Grid, animaciones, variables y media queries  
-- **JavaScript ES6+:** Intersection Observer API, event listeners modernos  
+- **HTML:** Estructura semántica  
+- **CSS:** Flexbox, Grid, animaciones, variables y media queries  
+- **JavaScript:** Intersection Observer API, event listeners modernos  
 - **Font Awesome:** Iconografía  
 - **Google Fonts:** Tipografía *Inter*  
 
